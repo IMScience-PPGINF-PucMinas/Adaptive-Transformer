@@ -98,7 +98,7 @@ If you find this code useful for your research, consider cite our paper:
 
 ## Others
 This code used resources from the following projects: 
-[emt](https://github.com/IMScience-PPGINF-PucMinas/EMT)
+[emt](https://github.com/IMScience-PPGINF-PucMinas/EMT),
 [mart](https://github.com/jayleicn/recurrent-transformer),
 [transformers](https://github.com/huggingface/transformers), 
 [transformer-xl](https://github.com/kimiyoung/transformer-xl), 
