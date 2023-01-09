@@ -84,8 +84,17 @@ The results should be comparable with the results we present at Table 2 of the p
 E.g., B@4 10.00; C 23.04 R@4 5.29.
 
 ## Citations
-If you find this code useful for your research, consider cite our paper:
+If you find this code useful for your research, consider cite one of our papers:
 ```
+@inproceedings{cardoso2022exploring,
+  title={Exploring adaptive attention in memory transformer applied to coherent video paragraph captioning},
+  author={Cardoso, Leonardo Vilela and Guimaraes, Silvio Jamil F and Patrocinio, Zenilton KG},
+  booktitle={2022 IEEE Eighth International Conference on Multimedia Big Data (BigMM)},
+  pages={37--44},
+  year={2022},
+  organization={IEEE}
+}
+
 @inproceedings{cardoso2021enhanced,
   title={Enhanced-Memory Transformer for Coherent Paragraph Video Captioning},
   author={Cardoso, Leonardo Vilela and Guimaraes, Silvio Jamil F and Patroc{\'\i}nio, Zenilton KG},
