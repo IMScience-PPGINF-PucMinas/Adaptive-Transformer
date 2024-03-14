@@ -11,7 +11,7 @@
 dset_name=$1  # [anet, yc2]
 model_type=$2  # [mart, xl, xlrg, mtrans, mart_no_recurrence]
 
-data_dir="/home/lvcardoso/recurrent-transformer/densevid_eval/${dset_name}_data"
+data_dir="/content/Adaptive-Transformer/densevid_eval/${dset_name}_data"
 v_feat_dir="./video_feature/rt_${dset_name}_feat/trainval"
 dur_file="./video_feature/rt_${dset_name}_feat/${dset_name}_duration_frame.csv"
 word2idx_path="./cache/${dset_name}_word2idx.json"
@@ -33,7 +33,7 @@ fi
 
 extra_args=()
 
-python src/train.py \
+python train.py \
 --dset_name ${dset_name} \
 --data_dir ${data_dir} \
 --video_feature_dir ${v_feat_dir} \

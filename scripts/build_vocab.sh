@@ -20,7 +20,7 @@ fi
 # modify glove_path to your downloaded glove path
 glove_path="./data/glove.6B.300d.txt"
 
-python src/build_vocab.py \
+python build_vocab.py \
 --train_path ${train_path} \
 --dset_name ${dset_name} \
 --cache ./cache \

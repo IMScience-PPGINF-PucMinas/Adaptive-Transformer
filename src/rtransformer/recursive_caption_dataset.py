@@ -307,7 +307,7 @@ class RecursiveCaptionDataset(Dataset):
 
         feat = np.zeros((self.max_v_len + self.max_t_len, raw_feat.shape[1]))  # includes [CLS], [SEP]
         if indexed_feat_len > max_v_l:
-            downsamlp_indices = np.linspace(st, ed, max_v_l, endpoint=True).astype(np.int).tolist()
+            downsamlp_indices = np.linspace(st, ed, max_v_l, endpoint=True).astype(int).tolist()
             assert max(downsamlp_indices) < feat_len
             feat[1:max_v_l+1] = raw_feat[downsamlp_indices]  # truncate, sample???
 
